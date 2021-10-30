@@ -63,7 +63,7 @@ main {
 
 /* Projects */
 
-#dividerline {
+.dividerline {
   border: white;
   height: 5px;
   width: 90%;
