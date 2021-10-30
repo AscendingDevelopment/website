@@ -15,7 +15,7 @@ header {
   font-size: 20px;
 }
 
-@media only screen and (min-device-width: 400px) {
+@media only screen and (min-device-width: 800px) {
   header {
     padding: 60px;
     text-align: center;
