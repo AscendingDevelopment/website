@@ -78,11 +78,25 @@ main {
 } */
 
 .projectimage {
+  width: 240px;
+  height: 135x;
   border-radius: 15px;
   background-color: white;
   margin-top: -20px;
   border: 5px solid rgb(161, 161, 161);
   transition-duration: 0.4s;
+}
+
+@media only screen and (min-device-width: 400px) {
+  .projectimage {
+    width: 480px;
+    height: 270px;
+    border-radius: 15px;
+    background-color: white;
+    margin-top: -20px;
+    border: 5px solid rgb(161, 161, 161);
+    transition-duration: 0.4s;
+  }
 }
 
 .projectimage:hover {
