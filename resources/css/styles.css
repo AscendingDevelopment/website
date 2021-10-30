@@ -1,7 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  padding: 0;
+  min-height: 100%;
 }
+
+/* Header */
 
 header {
   padding: 60px;
@@ -11,12 +15,23 @@ header {
   font-size: 30px;
 }
 
+/* Body */
+
+main {
+  text-align: center;
+  overflow: auto;
+  padding-bottom: 86px;
+}
+
+/* Buttons */
+
 #buttons {
   display: inline-block;
   ;
 }
 
 .custombutton {
+  font-weight: 550;
   border-radius: 0px;
   background-color: lightsalmon;
   border: none;
@@ -32,27 +47,70 @@ header {
 }
 
 .custombutton1 {
+  font-weight: 550;
   border-radius: 0px;
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid lightsalmon;
 }
 
 .custombutton1:hover {
+  font-weight: 550;
   border-radius: 10px;
   background-color: lightsalmon;
   color: white;
 }
 
+/* Projects */
+
+#dividerline {
+  border: white;
+  height: 5px;
+  width: 90%;
+  background-color: rgb(141, 141, 141);
+}
+
+/* .projectimage {
+  background-color: rgb(219, 219, 219);
+  margin-top: -20px;
+  border: 5px solid #555;
+  transition-duration: 0.4s;
+} */
+
+.projectimage {
+  border-radius: 15px;
+  background-color: white;
+  margin-top: -20px;
+  border: 5px solid rgb(161, 161, 161);
+  transition-duration: 0.4s;
+}
+
+.projectimage:hover {
+  background-color: rgb(161, 161, 161);
+  transition: 0.4s;
+}
+
+/* .projectimage:hover {
+  border-radius: 100px;
+  background-color: rgb(161, 161, 161);
+  transition: 0.4s;
+} */
+
+.project-title {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+/* Footer */
+
 footer {
   background-color: rgb(112, 112, 112);
+  position: relative;
   color: white;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-weight: 550;
 }
 
 #footerlink {
@@ -61,6 +119,5 @@ footer {
 
 .footerimages {
   size: 100vh;
-  display: flex
-  ;
+  display: flex;
 }
