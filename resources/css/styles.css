@@ -5,6 +5,32 @@ body {
   min-height: 100%;
 }
 
+/* Navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(73, 73, 73);
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(206, 206, 206);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 /* Header */
 
 header {
@@ -80,13 +106,6 @@ main {
   background-color: rgb(141, 141, 141);
 }
 
-/* .projectimage {
-  background-color: rgb(219, 219, 219);
-  margin-top: -20px;
-  border: 5px solid #555;
-  transition-duration: 0.4s;
-} */
-
 .projectimage {
   width: 240px;
   height: 135x;
@@ -114,20 +133,32 @@ main {
   transition: 0.4s;
 }
 
-/* .projectimage:hover {
-  border-radius: 100px;
-  background-color: rgb(161, 161, 161);
-  transition: 0.4s;
-} */
-
 .project-title {
   margin-top: 50px;
   font-size: 25px;
 }
 
+/* About */
+
+.aboutsection {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.about {
+  font-size: 18px;
+}
+
 /* Footer */
 
 footer {
+  margin-top: 50px;
   background-color: rgb(112, 112, 112);
   position: relative;
   color: white;
