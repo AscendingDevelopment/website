@@ -107,6 +107,8 @@ main {
 }
 
 .projectimage {
+  margin-right: 10px;
+  margin-left: 10px;
   width: 240px;
   height: 135x;
   border-radius: 15px;
@@ -126,6 +128,15 @@ main {
     border: 5px solid rgb(161, 161, 161);
     transition-duration: 0.4s;
   }
+
+  .broadcastsim-project {
+    flex: 1; margin-right: 250px;
+  }
+  
+  .ascendbot-project {
+    flex: 1; margin-left: 250px;
+  }
+
 }
 
 .projectimage:hover {
